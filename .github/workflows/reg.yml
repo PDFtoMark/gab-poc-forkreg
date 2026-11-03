@@ -1,0 +1,8 @@
+name: Reg Test
+on: [workflow_dispatch, push]
+permissions: {}
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi
